@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="title">Tic Tac Toe</h1>
+        </header>
+        <section class="main-content">
+            <p class="currentPlayer">Player X's turn</p>
+            <div id="gameboard">
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+                <button class="slot"></button>
+            </div>
+            <!-- <div id="control">
+                <button id="start">Start</button>
+            </div> -->
+        </section>
+        <footer id="footer"></footer>
+    </main>
+
+    <div id="game-result">
+        <div class="resultContainer">
+            <p class="gameWinner"></p>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
